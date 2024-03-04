@@ -2,7 +2,9 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   entry: {
-    ".": "src/index.tsx",
+    "index": "src/index.tsx",
+    "button": "src/Button.tsx",
+    "input": "src/Input.tsx",
   },
   banner: {
     js: "'use client'",
@@ -10,4 +12,7 @@ export default defineConfig({
   format: ["cjs", "esm"],
   external: ["react"],
   dts: true,
+  minify: true,
+  clean: true,
+  platform: 'browser',
 });

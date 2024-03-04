@@ -9,16 +9,6 @@
       "import": "./dist/index.mjs",
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
-    },
-    "./button": {
-      "import": "./dist/button.mjs",
-      "require": "./dist/button.js",
-      "types": "./dist/button.d.ts"
-    },
-    "./input": {
-      "import": "./dist/input.mjs",
-      "require": "./dist/input.js",
-      "types": "./dist/input.d.ts"
     }
   },
   "files": [
@@ -33,6 +23,7 @@
   "devDependencies": {
     "@acme/eslint-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
+    "@swc/core": "^1.4.2",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",

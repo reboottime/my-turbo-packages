@@ -2,16 +2,15 @@
 
 - Purpose: Build React component lib
 - Expectation:
-  - import component directly, for example `import Button "@acme/core/button"`
-  - import from component, for example `import { Button } from "@acme/core/button"`
+  - import component directly, for example `import { Button } "@acme/core"`
+  - <del>import from component, for example `import { Button } from "@acme/core/button"`</del>
 
 ## Roadmap
 
-- CI/CD
 - build script [done]
-- file exports
-- changeset
-- unit test
+- file exports [done]
+- unit test [done]
+- Apply changeset to CI/CD
 - publish to `npm` registry
 
 ---
@@ -29,4 +28,4 @@
 
 ## Knowledge Base
 
-- tsup uses esbuild, which means its faster than rollup and webpack
+- [tsup](https://tsup.egoist.dev/#generate-declaration-file)

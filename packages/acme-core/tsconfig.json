@@ -1,5 +1,8 @@
 {
   "extends": "@acme/tsconfig/react-library.json",
   "include": ["."],
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "node_modules/@testing-library"]
+  },
   "exclude": ["dist", "build", "node_modules"]
 }

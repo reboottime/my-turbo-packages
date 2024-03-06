@@ -2,6 +2,10 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:ci": "turbo build --cache-dir=\".turbo\" --concurrency=2",
+    "lint:ci": "turbo lint --cache-dir=\".turbo\"",
+    "test": "turbo test",
+    "test:ci": "turbo test --concurrency=2 --cache-dir=\".turbo\"",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",

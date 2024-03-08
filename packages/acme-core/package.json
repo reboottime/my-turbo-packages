@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup ./src/* --watch",
-    "lint": "eslint \"src/**/*.ts*\"",
+    "lint": "eslint \"src/**/*.ts*\" --fix",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "test": "jest",
     "test:ci": "jest --ci"

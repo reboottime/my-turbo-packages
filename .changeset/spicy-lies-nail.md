@@ -1,5 +1,0 @@
----
-"@acme/core": major
----
-
-dmeo

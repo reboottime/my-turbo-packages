@@ -22,8 +22,8 @@
   - symptom: importing using this way `import { Button } from "@acme/core/button"` has typescript warning as `Cannot find module '@acme/core/button' or its corresponding type declarations.ts(2307)
   - impact: it doesn't matter as our code built by `tsup` supports tree shaking, so even if user imports the `button` via `import Button "@acme/core/button"`, the final file doesn't contain all other not used components
   - attempted solution: declare types file for each exports
-  - conclusion: _ignore_, and there is no need to declare exports for 
-  button, input, etc.
+  - conclusion: _ignore_, and there is no need to declare exports for
+    button, input, etc.
 
 - `use client` banner with compile target as `es5`
 

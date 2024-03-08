@@ -2,9 +2,9 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   entry: {
-    "index": "src/index.tsx",
-    "button": "src/button.tsx",
-    "input": "src/input.tsx",
+    index: "src/index.tsx",
+    button: "src/button.tsx",
+    input: "src/input.tsx",
   },
   banner: {
     js: "'use client'",
@@ -19,5 +19,5 @@ export default defineConfig({
   minify: true,
   // clean dist folder before building
   clean: true,
-  platform: 'browser',
+  platform: "browser",
 });

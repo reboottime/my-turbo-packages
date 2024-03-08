@@ -19,7 +19,8 @@
     "dev": "tsup ./src/* --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --ci"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:*",

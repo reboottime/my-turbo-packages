@@ -28,9 +28,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf build",
     "dev": "react-scripts start",
     "eject": "react-scripts eject",
-    "lint": "eslint \"src/**/*.ts*\"",
-    "test": "react-scripts test",
-    "test:ci": "react-scripts test"
+    "lint": "eslint \"src/**/*.ts*\""
   },
   "browserslist": {
     "production": [

@@ -18,6 +18,7 @@
     "@acme/eslint-config": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "eslint": "^8.57.0",
+    "husky": "^8.0.0",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },

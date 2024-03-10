@@ -10,15 +10,15 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@acme/core": "workspace:*",
-    "@acme/utils": "workspace:*",
+    "@reboot/core": "workspace:*",
+    "@reboot/utils": "workspace:*",
     "next": "^14.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@reboot/eslint-config": "workspace:*",
+    "@reboot/tsconfig": "workspace:*",
     "@next/eslint-plugin-next": "^14.1.2",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.63",

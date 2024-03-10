@@ -1,5 +1,5 @@
 {
-  "name": "@acme/core",
+  "name": "@reboot/core",
   "version": "0.0.0",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
@@ -22,8 +22,8 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@reboot/eslint-config": "workspace:*",
+    "@reboot/tsconfig": "workspace:*",
     "@babel/preset-env": "^7.24.0",
     "@swc/core": "^1.4.6",
     "@testing-library/jest-dom": "^6.4.2",

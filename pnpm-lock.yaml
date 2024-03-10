@@ -8,12 +8,12 @@ importers:
 
   .:
     devDependencies:
-      '@acme/eslint-config':
-        specifier: workspace:*
-        version: link:packages/eslint-config
       '@changesets/cli':
         specifier: ^2.27.1
         version: 2.27.1
+      '@reboot/eslint-config':
+        specifier: workspace:*
+        version: link:packages/eslint-config
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -29,10 +29,10 @@ importers:
 
   apps/docs:
     dependencies:
-      '@acme/core':
+      '@reboot/core':
         specifier: workspace:*
         version: link:../../packages/acme-core
-      '@acme/utils':
+      '@reboot/utils':
         specifier: workspace:*
         version: link:../../packages/acme-utils
       next:
@@ -45,15 +45,15 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@acme/eslint-config':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config
-      '@acme/tsconfig':
-        specifier: workspace:*
-        version: link:../../packages/acme-tsconfig
       '@next/eslint-plugin-next':
         specifier: ^14.1.2
         version: 14.1.2
+      '@reboot/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@reboot/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/acme-tsconfig
       '@types/node':
         specifier: ^20.11.24
         version: 20.11.24
@@ -69,15 +69,15 @@ importers:
 
   packages/acme-core:
     devDependencies:
-      '@acme/eslint-config':
-        specifier: workspace:*
-        version: link:../eslint-config
-      '@acme/tsconfig':
-        specifier: workspace:*
-        version: link:../acme-tsconfig
       '@babel/preset-env':
         specifier: ^7.24.0
         version: 7.24.0(@babel/core@7.24.0)
+      '@reboot/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@reboot/tsconfig':
+        specifier: workspace:*
+        version: link:../acme-tsconfig
       '@swc/core':
         specifier: ^1.4.6
         version: 1.4.6
@@ -125,10 +125,10 @@ importers:
 
   packages/acme-utils:
     devDependencies:
-      '@acme/eslint-config':
+      '@reboot/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@acme/tsconfig':
+      '@reboot/tsconfig':
         specifier: workspace:*
         version: link:../acme-tsconfig
       '@types/react':

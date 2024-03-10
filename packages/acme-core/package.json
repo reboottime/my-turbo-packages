@@ -1,5 +1,5 @@
 {
-  "name": "@reboot/core",
+  "name": "@katenpm2021/core",
   "version": "0.0.0",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
@@ -22,8 +22,8 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@reboot/eslint-config": "workspace:*",
-    "@reboot/tsconfig": "workspace:*",
+    "@katenpm2021/eslint-config": "workspace:*",
+    "@katenpm2021/tsconfig": "workspace:*",
     "@babel/preset-env": "^7.24.0",
     "@swc/core": "^1.4.6",
     "@testing-library/jest-dom": "^6.4.2",

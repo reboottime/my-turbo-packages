@@ -1,5 +1,5 @@
 {
-  "name": "@reboot/docs",
+  "name": "@katenpm2021/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,15 +10,15 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@reboot/core": "workspace:*",
-    "@reboot/utils": "workspace:*",
+    "@katenpm2021/core": "workspace:*",
+    "@katenpm2021/utils": "workspace:*",
     "next": "^14.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@reboot/eslint-config": "workspace:*",
-    "@reboot/tsconfig": "workspace:*",
+    "@katenpm2021/eslint-config": "workspace:*",
+    "@katenpm2021/tsconfig": "workspace:*",
     "@next/eslint-plugin-next": "^14.1.2",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.63",

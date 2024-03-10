@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@reboot/eslint-config/next.js"],
+  extends: ["@katenpm2021/eslint-config/next.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: true,

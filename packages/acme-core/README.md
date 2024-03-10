@@ -10,8 +10,8 @@
 - [x] Build script **[done]**
 - [x] File exports **[done]**
 - [x] Unit tests **[done]**
-- [ ] Apply changeset to CI/CD
-- [ ] Publish to `npm` registry
+- [x] Apply changeset to CI/CD
+- [x] Publish to `npm` registry
 
 ---
 

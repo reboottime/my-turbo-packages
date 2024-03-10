@@ -1,4 +1,4 @@
-import { Input, Button } from "@acme/core";
+import { Input, Button } from "@reboot/core";
 
 export default function Page() {
   return (

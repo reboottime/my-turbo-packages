@@ -15,7 +15,7 @@
     "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
+    "@reboot/eslint-config": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "eslint": "^8.57.0",
     "husky": "^8.0.0",

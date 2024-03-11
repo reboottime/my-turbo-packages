@@ -3,15 +3,16 @@ import userEvent from "@testing-library/user-event";
 
 import Button from "./button";
 
-test("renders the button with the correct text", () => {
+it("renders the button with the correct text", () => {
   render(<Button>Click Me</Button>);
 
   expect(screen.getByText(/click me/i)).toBeInTheDocument();
 });
 
-test("renders the button with event handler", async () => {
-  const onButtonClick = jest.fn();
+it("renders the button with event handler", async () => {
   userEvent.setup();
+
+  const onButtonClick = jest.fn();
 
   render(<Button onClick={onButtonClick}>Click Me</Button>);
 

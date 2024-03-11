@@ -5,5 +5,8 @@ module.exports = {
   parserOptions: {
     project: true,
   },
+  env: {
+    jest: true,
+  },
   ignorePatterns: ["*.spec.tsx", "*.test.tsx", "*.spec.ts", "*.test.ts"],
 };

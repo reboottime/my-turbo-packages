@@ -1,32 +1,36 @@
 # README
 
 - **Purpose**: Build React component lib
-- **Expectation**:
-  - import component directly, for example `import { Button } "@acme/core"`
-  - <del>import from component, for example `import { Button } from "@acme/core/button"`</del>
+- **Expectation**: import component directly, for example `import { Button } "@acme/core"`
 
 ## Roadmap
 
-- [x] Build script **[done]**
-- [x] File exports **[done]**
-- [x] Unit tests **[done]**
-- [x] Apply changeset to CI/CD
-- [x] Publish to `npm` registry
+- [x] Build script
+- [x] File exports
+- [x] unit tests
+  - [x] assertion
+  - [x] testing react
+    - [x] react testing library
+    - [x] test user interaction: [user-event@14](https://testing-library.com/docs/user-event/intro)
+    - [x] react-hooks-testing-library
+- [x] Apply `changeset` to CI/CD
+- [x] Publish to `NPM` registry
 
 ---
 
-## Unresolved issues
+## Minor Warnings
 
-- issue 1:
+- Grammar:
 
-  - symptom: importing using this way `import { Button } from "@acme/core/button"` has typescript warning as `Cannot find module '@acme/core/button' or its corresponding type declarations.ts(2307)
-  - impact: it doesn't matter as our code built by `tsup` supports tree shaking, so even if user imports the `button` via `import Button "@acme/core/button"`, the final file doesn't contain all other not used components
-  - attempted solution: declare types file for each exports
-  - conclusion: _ignore_, and there is no need to declare exports for
-    button, input, etc.
+  - We currently support importing the button module as import { Button } from "@acme/core", rather than import Button from '@acme/core/button'.
+  - This distinction doesn't matter significantly as the bundling tool utilized in this repository is `tsup`, which handles tree shaking efficiently. This implies that when using import { Button } from "@acme/core", the output excludes any unused code.
 
-- `use client` banner with compile target as `es5`
+- `use client` banner with Compile Target as `es5` has warnings
 
 ## Knowledge Base
 
-- [tsup](https://tsup.egoist.dev/#generate-declaration-file)
+- [tsup](https://tsup.egoist.dev/#generate-declaration-file): Bundle your TypeScript library with no config, powered by esbuild.
+
+- [Unit test for test user interaction](https://testing-library.com/docs/user-event/intro) with ease
+- [Test React component](https://testing-library.com/docs/) without going to eval
+- [Testing react hooks](https://react-hooks-testing-library.com/)

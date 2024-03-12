@@ -37,4 +37,4 @@
 - Testing React lib
   - https://testing-library.com/docs/user-event/intro
   - https://testing-library.com/docs/
-  - https://react-hooks-testing-library.com/
+    - After React 18.x, react testing library supports testing react hooks directly via `import { renderHook } from "@testing-library/react";`

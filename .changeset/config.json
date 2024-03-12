@@ -7,5 +7,5 @@
   "baseBranch": "main",
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@reboot/docs"]
+  "ignore": ["@katenpm2021/docs"]
 }

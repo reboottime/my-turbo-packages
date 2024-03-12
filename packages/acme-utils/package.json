@@ -1,5 +1,5 @@
 {
-  "name": "@reboot/utils",
+  "name": "@katenpm2021/utils",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,8 +16,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@reboot/eslint-config": "workspace:*",
-    "@reboot/tsconfig": "workspace:*",
+    "@katenpm2021/eslint-config": "workspace:*",
+    "@katenpm2021/tsconfig": "workspace:*",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "eslint": "^8.57.0",

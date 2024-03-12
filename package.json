@@ -15,7 +15,7 @@
     "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
-    "@reboot/eslint-config": "workspace:*",
+    "@katenpm2021/eslint-config": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "eslint": "^8.57.0",
     "husky": "^8.0.0",

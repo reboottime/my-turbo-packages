@@ -1,4 +1,4 @@
-import { Input, Button } from "@reboot/core";
+import { Input, Button } from "@katenpm2021/core";
 
 export default function Page() {
   return (

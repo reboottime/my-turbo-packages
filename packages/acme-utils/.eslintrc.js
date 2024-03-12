@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@reboot/eslint-config/library.js"],
+  extends: ["@katenpm2021/eslint-config/library.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: true,

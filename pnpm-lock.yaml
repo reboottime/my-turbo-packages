@@ -67,15 +67,6 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  apps/reactapp:
-    devDependencies:
-      '@testing-library/dom':
-        specifier: ^9.3.4
-        version: 9.3.4
-      '@testing-library/user-event':
-        specifier: ^14.5.2
-        version: 14.5.2(@testing-library/dom@9.3.4)
-
   packages/acme-core:
     devDependencies:
       '@babel/preset-env':
@@ -194,6 +185,72 @@ importers:
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
+
+  packages/react-hooks:
+    devDependencies:
+      '@babel/preset-env':
+        specifier: ^7.24.0
+        version: 7.24.0(@babel/core@7.24.0)
+      '@katenpm2021/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@katenpm2021/tsconfig':
+        specifier: workspace:*
+        version: link:../acme-tsconfig
+      '@swc/core':
+        specifier: ^1.4.6
+        version: 1.4.6
+      '@testing-library/dom':
+        specifier: ^9.3.4
+        version: 9.3.4
+      '@testing-library/jest-dom':
+        specifier: ^6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(jest@29.7.0)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@testing-library/react-hooks':
+        specifier: ^8.0.1
+        version: 8.0.1(@types/react@18.2.64)(react-dom@18.2.0)(react@18.2.0)
+      '@testing-library/user-event':
+        specifier: ^14.5.2
+        version: 14.5.2(@testing-library/dom@9.3.4)
+      '@types/jest':
+        specifier: ^29.5.12
+        version: 29.5.12
+      '@types/react':
+        specifier: ^18.2.64
+        version: 18.2.64
+      '@types/react-dom':
+        specifier: ^18.2.21
+        version: 18.2.21
+      babel-jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@babel/core@7.24.0)
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.0
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0
+      jest-environment-jsdom:
+        specifier: ^29.7.0
+        version: 29.7.0
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      ts-jest:
+        specifier: ^29.1.2
+        version: 29.1.2(@babel/core@7.24.0)(babel-jest@29.7.0)(esbuild@0.19.12)(jest@29.7.0)(typescript@5.4.2)
+      tsup:
+        specifier: ^8.0.2
+        version: 8.0.2(@swc/core@1.4.6)(typescript@5.4.2)
+      typescript:
+        specifier: ^5.4.2
+        version: 5.4.2
 
 packages:
 
